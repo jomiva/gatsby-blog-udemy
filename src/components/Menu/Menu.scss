@@ -1,0 +1,12 @@
+@import '../../sass/global.scss';
+.menu {
+  > a h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px !important;
+    color: $font-dark !important;
+  }
+  > p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,19 @@
+.blog-layout {
+  > .ui.grid {
+    margin: 0 !important;
+    min-height: 100vh;
+    > .column {
+      padding: 40px;
+      &:first-of-type {
+        background-color: #f4f4f4;
+      }
+      &:last-of-type {
+        max-height: 100vh;
+        overflow-y: scroll;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+      }
+    }
+  }
+}

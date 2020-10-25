@@ -1,0 +1,30 @@
+@import '../../sass/index.scss';
+
+.post {
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .markdown-body {
+    padding-bottom: 20px;
+    code {
+      display: block;
+      border: 1px solid rgba(22, 229, 231, 0.6);
+      border-radius: 4px;
+      background-color: #333;
+      padding: 1em 1.2em;
+      color: #0098d3;
+    }
+    figure .image {
+      text-align: center;
+      img {
+        width: 100%;
+        @media (min-width: $breakpoint-up-md) {
+          max-width: 100%;
+          width: auto;
+        }
+      }
+    }
+  }
+}
